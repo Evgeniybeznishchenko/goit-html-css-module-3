@@ -11,39 +11,48 @@ nav {
   padding: 77px 0px 103px;
 }
 
+a {
+  text-decoration: none;
+  color: #626262;
+}
+
 a:hover,
 a:focus {
-  color: turquoise;
+  color: #35baf5;
 }
 
 Li {
   display: inline-block;
   margin-left: 107px;
   font-family: "Playfair Display", serif;
-  color: grey;
+  color: #626262;
 }
 
 h2 {
   font-family: "Playfair Display", serif;
-  color: grey;
+  color: #626262;
+  font-family: 30px;
 }
 
 h3 {
   font-family: "Playfair Display", serif;
-  color: grey;
+  color: #626262;
+  font-family: 14px;
 }
 
 p {
   font-family: "Playfair Display", serif;
-  color: grey;
+  color: #626262;
+  font-family: 14px;
 }
 
 /*site-section*/
 section {
   width: 420px;
-  margin-right: 50px;
+  margin-right: 56px;
   padding: 0px;
   display: inline-block;
+  font-size: right 0px;
 }
 
 section:nth-child(2n) {
@@ -54,5 +63,10 @@ button {
   font-family: "Playfair Display", serif;
   margin: 133px 368px 51px 368px;
   font-size: 20px;
-  color: grey;
+  color: #626262;
+  width: 164px;
+  height: 60px;
 }
+
+font-size: 0;
+font-size: right 0px;
