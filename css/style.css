@@ -7,11 +7,11 @@
   padding: 0 15px;
 }
 
-nav {
+.site-nav {
   padding: 77px 0px 103px;
 }
 
-a {
+.site-menu {
   text-decoration: none;
   color: #626262;
 }
@@ -21,33 +21,36 @@ a:focus {
   color: #35baf5;
 }
 
-Li {
+.site-li {
   display: inline-block;
   margin-left: 107px;
   font-family: "Playfair Display", serif;
   color: #626262;
+  font-size: 14px;
 }
 
-h2 {
+.text1 {
   font-family: "Playfair Display", serif;
   color: #626262;
-  font-family: 30px;
+  font-size: 30px;
 }
 
-h3 {
-  font-family: "Playfair Display", serif;
-  color: #626262;
-  font-family: 14px;
+.text2 {
+  font-family: "Ubuntu", sans-serif;
+  color: #c2bcb0;
+  font-weight: 100;
+  font-size: 14px;
 }
 
-p {
+.site-paragraf {
   font-family: "Playfair Display", serif;
-  color: #626262;
-  font-family: 14px;
+  color: #b6b6b6;
+  font-size: 14px;
+  margin: 0 auto;
 }
 
 /*site-section*/
-section {
+.site-box {
   width: 420px;
   margin-right: 56px;
   padding: 0px;
@@ -55,18 +58,19 @@ section {
   font-size: right 0px;
 }
 
-section:nth-child(2n) {
+.site-box:nth-child(2n) {
   margin-right: 0px;
 }
 
-button {
+.end-site {
   font-family: "Playfair Display", serif;
-  margin: 133px 368px 51px 368px;
-  font-size: 20px;
-  color: #626262;
   width: 164px;
   height: 60px;
+  font-size: 20px;
+  color: #727272;
+  border: 1px solid#92b4f5;
 }
-
-font-size: 0;
-font-size: right 0px;
+.stile-button {
+  text-align: center;
+  margin-top: 57px;
+}
